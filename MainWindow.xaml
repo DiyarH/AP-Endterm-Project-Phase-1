@@ -5,8 +5,132 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AP_Endterm_Project_Phase_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="AP Endterm Project Phase 1" Height="450" Width="400">
+    <!-- Tab Controls -->
+    <StackPanel Background="Aquamarine">
+        <TabControl SelectionChanged="tab_SelectionChanged" x:Name="tab" TabStripPlacement="Left" Background="LightCyan">
+            <TabItem Header="Menu">
+                <Border Padding="10" Background="LightCyan">
+                    <StackPanel>
+                        <TextBlock Text="Actions" FontWeight="Bold" Margin="0 0 0 5" HorizontalAlignment="Center"></TextBlock>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*"></ColumnDefinition>
+                                <ColumnDefinition Width="3*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Button Margin="0 0 4 0" Grid.Column="0" Content="Save"></Button>
+                            <Button Margin="4 0 4 0" Grid.Column="1" Content="Load"></Button>
+                            <Button Margin="4 0 0 0" Grid.Column="2" Content="R"></Button>
+                        </Grid>
+                        <Button Margin="0 8 0 2" Content="New"></Button>
+                        <TextBlock Text="Options" FontWeight="Bold" Margin="0 10 0 8" HorizontalAlignment="Center"></TextBlock>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Margin="0 0 4 0" Grid.Column="0">
+                                <CheckBox Content="&lt;$500"></CheckBox>
+                                <CheckBox Margin="0 5" Content="$1000-$1500"></CheckBox>
+                                <CheckBox Content="$2000-$2500"></CheckBox>
+                                <RadioButton GroupName="numberType" Margin="0 5" Content="Odd"></RadioButton>
+                            </StackPanel>
+                            <StackPanel Margin="0 0 4 0" Grid.Column="1">
+                                <CheckBox Content="$500-$1000"></CheckBox>
+                                <CheckBox Margin="0 5" Content="$1500-$2000"></CheckBox>
+                                <CheckBox Content="&gt;$2500"></CheckBox>
+                                <RadioButton GroupName="numberType" Margin="0 5" Content="Even"></RadioButton>
+                            </StackPanel>
+                            <ListBox Margin="4 0 0 0" Grid.Column="2">
+                                <ListBoxItem Content="Phone"></ListBoxItem>
+                                <ListBoxItem Content="Smart Watch"></ListBoxItem>
+                                <ListBoxItem Content="Tablet"></ListBoxItem>
+                                <ListBoxItem Content="Laptop" IsSelected="True"></ListBoxItem>
+                            </ListBox>
+                        </Grid>
+                        <TextBlock Text="Description" FontWeight="Bold" Margin="0 10 0 8" HorizontalAlignment="Center"></TextBlock>
+                        <TextBox Height="130" TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True"></TextBox>
+                    </StackPanel>
+                </Border>
+            </TabItem>
+            <TabItem Header="Account">
+                <Border Padding="10" Background="LightCyan">
+                    <StackPanel>
+                        <TextBlock Margin="0 0 0 6" FontWeight="Bold" HorizontalAlignment="Center" Text="Personal Information"></TextBlock>
+                        <Grid Margin="20 5 30 5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="2*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <TextBlock Margin="0 3" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Text="First Name:"></TextBlock>
+                            <TextBox Margin="0 3" Grid.Row="0" Grid.Column="1"></TextBox>
+                            <TextBlock Margin="0 3" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" Text="Last Name:"></TextBlock>
+                            <TextBox Margin="0 3" Grid.Row="1" Grid.Column="1"></TextBox>
+                            <TextBlock Margin="12 3 0 3" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" Text="Address:"></TextBlock>
+                            <TextBox TextWrapping="Wrap" Height="100" Margin="0 3" Grid.Row="2" Grid.Column="1"></TextBox>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Margin="18 2 0 2" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Text="Date:"></TextBlock>
+                            <ComboBox Margin="4 0" x:Name="year" Grid.Column="1"></ComboBox>
+                            <ComboBox Margin="4 0" x:Name="month" Grid.Column="2"></ComboBox>
+                            <ComboBox Margin="4 0" x:Name="day" Grid.Column="3"></ComboBox>
+                        </Grid>
+                        <Image Margin="0 10 0 0" Source="WIP.jfif" Width="300" Height="135"></Image>
+                        
+                    </StackPanel>
+                </Border>
+            </TabItem>
+            <TabItem Header="Color">
+                <Border Padding="10" Background="LightCyan">
+                    <StackPanel>
+                        <Grid Margin="0 0 10 5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="4*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <TextBlock Margin="2" Grid.Row="0" Grid.Column="0" Text="Red" HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock Margin="2" Grid.Row="1" Grid.Column="0" Text="Green" HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock Margin="2" Grid.Row="2" Grid.Column="0" Text="Blue" HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock Margin="2" Grid.Row="3" Grid.Column="0" Text="Color" HorizontalAlignment="Center"></TextBlock>
+                            <Slider x:Name="red" ValueChanged="colorValueChanged" Minimum="0" Maximum="255" Value="255" Interval="1" Grid.Row="0" Grid.Column="1"></Slider>
+                            <Slider x:Name="green" ValueChanged="colorValueChanged" Minimum="0" Maximum="255" Value="255" Interval="1" Grid.Row="1" Grid.Column="1"></Slider>
+                            <Slider x:Name="blue" ValueChanged="colorValueChanged" Minimum="0" Maximum="255" Value="255" Interval="1" Grid.Row="2" Grid.Column="1"></Slider>
+                            <TextBox Margin="0 3" x:Name="colorValue" Grid.Row="3" Grid.Column="1" Text="FFFFFF"></TextBox>
+                        </Grid>
+                        <Border Width="284" Height="264" Background="Black">
+                            <Rectangle x:Name="shape" Fill="White" Width="280" Height="260"></Rectangle>
+                        </Border>
+                    </StackPanel>
+                </Border>
+            </TabItem>
+        </TabControl>
+        <Grid Margin="60 0 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" x:Name="previousPage" Margin="10 4 5 0" Content="Previous Page" Click="previousPage_Click"></Button>
+            <Button Grid.Column="1" x:Name="nextPage" Margin="5 4 15 0" Content="Next Page" Click="nextPage_Click"></Button>
+        </Grid>
+    </StackPanel>
+    
 </Window>
