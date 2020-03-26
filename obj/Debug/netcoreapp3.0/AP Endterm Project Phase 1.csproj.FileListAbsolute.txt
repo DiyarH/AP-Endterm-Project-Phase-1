@@ -1,0 +1,17 @@
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\bin\Debug\netcoreapp3.0\AP Endterm Project Phase 1.exe
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\bin\Debug\netcoreapp3.0\AP Endterm Project Phase 1.deps.json
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\bin\Debug\netcoreapp3.0\AP Endterm Project Phase 1.runtimeconfig.json
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\bin\Debug\netcoreapp3.0\AP Endterm Project Phase 1.runtimeconfig.dev.json
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\bin\Debug\netcoreapp3.0\AP Endterm Project Phase 1.dll
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\bin\Debug\netcoreapp3.0\AP Endterm Project Phase 1.pdb
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\AP Endterm Project Phase 1.csprojAssemblyReference.cache
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\AP Endterm Project Phase 1_MarkupCompile.cache
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\AP Endterm Project Phase 1_MarkupCompile.lref
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\AP Endterm Project Phase 1.g.resources
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\AP Endterm Project Phase 1.AssemblyInfoInputs.cache
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\AP Endterm Project Phase 1.AssemblyInfo.cs
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\AP Endterm Project Phase 1.dll
+C:\Users\Diyar Hamedi\Desktop\advanced programming\AP Endterm Project\AP Endterm Project Phase 1\obj\Debug\netcoreapp3.0\AP Endterm Project Phase 1.pdb
